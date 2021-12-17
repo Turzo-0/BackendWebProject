@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bakbak One", cursive;
+}
+
+:root {
+  --main-bg: rgb(219, 225, 230);
+  --main-color: rgb(39, 7, 7);
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 0;
+}
+
+.main_menu {
+  background-color: var(--main-bg);
+}
+.navbar {
+  color: black;
+}
+.navbar a {
+  color: rgb(73, 29, 29);
+  font-size: 2rem;
+}
+.navbar {
+  color: black;
+}
+
+.navbar-toggler {
+  background-color: rgb(73, 29, 29);
+}
+
+.navbar li {
+  margin: 3px;
+}
+/* .navbar a:hover {
+  font-size: 62.6rem;
+} */
+
+/* main header */
+.main_header_left {
+  height: 70rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main_header_left p {
+  font-size: 2rem;
+}
+.main_header_left h1 {
+  font-size: 4rem;
+  margin: 1rem 0 4 rem 0;
+  text-transform: capitalize;
+}
+.main_header_left button {
+  border: none;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  background-color: var(--main-bg);
+  box-shadow: 0 8px 6px -6px rgb(73, 29, 29);
+}
+.main_header_left button:hover {
+  box-shadow: 0 8px 6px -6px rgb(239, 243, 11);
+}
+
+.main_header_right {
+  height: 70rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main_header_right figure img {
+  filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.3));
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: var(--main-bg);
+  margin-top: auto;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+  color: rgb(73, 29, 29);
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+/* Responsive code */
+@media (max-width: 768px) {
+  .main_header_left {
+    height: auto;
+    margin: 5rem 0;
+  }
+  .main_header_right {
+    height: auto;
+    margin-top: 3rem 0;
+  }
+}
+
+/* main-service */
+
+.columService {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.main_service {
+  justify-content: center;
+  text-align: center;
+}
+
+/* gallaery */
+.main_gallery {
+  justify-content: center;
+  text-align: center;
+}
+.main_gallery h1 {
+  font-size: 4rem;
+}
+
+.carousel-inner .img-fluid {
+  max-width: 100%;
+  height: 500px;
+}
+
+/* //sponser */
+.main_sponser {
+  text-align: center;
+  justify-content: center;
+}
+.main_sponser h1 {
+  font-size: 4rem;
+}
